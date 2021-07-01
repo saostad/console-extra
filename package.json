@@ -1,6 +1,10 @@
 {
     "name": "console-lov",
     "publisher": "saostad",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/saostad/console-lov.git"
+    },
     "displayName": "console.lov",
     "description": "console.log with file name and line number",
     "version": "0.1.0",
