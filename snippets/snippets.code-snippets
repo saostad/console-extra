@@ -1,0 +1,11 @@
+{
+  "Print to console": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "lov",
+    "body": [
+      "console.log(`File: $TM_FILENAME,`, `Line: $TM_LINE_NUMBER => `, $1)",
+      "$2"
+    ],
+    "description": "console.log with file name and line number"
+  }
+}
