@@ -1,25 +1,37 @@
 {
-    "name": "console-lov",
-    "publisher": "saostad",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/saostad/console-lov.git"
-    },
-    "displayName": "console.lov",
-    "description": "console.log with file name and line number",
-    "version": "0.1.0",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "'javascript', 'typescript'",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "console-lov",
+  "publisher": "saostad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saostad/console-lov.git"
+  },
+  "displayName": "console.lov",
+  "description": "console.log with file name and line number",
+  "version": "0.2.0",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
 }
