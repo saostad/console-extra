@@ -1,13 +1,17 @@
-console.log with file name and line number
+console.log with extra!
 
 ## How to use
 
 ```js
-lov (Ctrl+Space) OR (CMD+Space)
-```
+//Print filename and line number to console
+lof + (TAB)
+console.log(`File: filename,`, `Line: # => `);
 
-### Output
+//Print timestamp, filename and line number to console
+lot + (TAB)
+console.log(`(22:16:57) File: filename,`, `Line: # => `);
 
-```js
-console.log(`File: filename.js,`, `Line: 1 => `, )
+// Print selected variable to console
+lov + (TAB)
+console.log(`variableName`, variableName);
 ```

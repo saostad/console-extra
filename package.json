@@ -1,15 +1,15 @@
 {
-  "name": "console-lov",
+  "name": "console-extra",
   "publisher": "saostad",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saostad/console-lov.git"
+    "url": "https://github.com/saostad/console-extra.git"
   },
-  "displayName": "console.lov",
-  "description": "console.log with file name and line number",
-  "version": "0.2.0",
+  "displayName": "console.extra",
+  "description": "console.log with extra fun!",
+  "version": "0.3.0",
   "engines": {
-    "vscode": "^1.20.0"
+    "vscode": "^1.40.0"
   },
   "categories": [
     "Snippets"
